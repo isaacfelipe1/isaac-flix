@@ -4,7 +4,7 @@ function adicinarFilme () {
         if (filmeFavorito.endsWith('.jpg')) {
              listarFilmesNatela(filmeFavorito)
         }else{
-            alert("imagem inválda")
+            alert("Imagem inválida")
         }
         campoFilmeFavorito.value=""
        
